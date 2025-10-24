@@ -51,7 +51,7 @@ You can deploy this bot with a single click on your favorite cloud service:
     <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku">
   </a>
   &nbsp;
-  <a href="https://render.com/deploy?repo=https://github.com/popeye68/NON-DRM-TXT-VIDEO">
+  <a href="https://render.com/deploy?repo=https://github.com/Jodmarmik/txttovid/">
     <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
   </a>
   &nbsp;
