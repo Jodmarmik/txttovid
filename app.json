@@ -1,0 +1,29 @@
+{
+  "name": "Telegram Bot App",
+  "description": "A simple Telegram bot using API_ID, API_HASH, and BOT_TOKEN.",
+  "repository": "https://github.com/Jodmarmik/txttovid",
+  "keywords": ["telegram", "bot", "python"],
+  "env": {
+    "API_ID": {
+      "description": "Your Telegram API ID from https://my.telegram.or",
+      "value": "1234567"
+    },
+    "API_HASH": {
+      "description": "Your Telegram API Hash from https://my.telegram.org",
+      "value": "b20eefe8cdb120347ebd8113065f98e4"
+    },
+    "BOT_TOKEN": {
+      "description": "Your Telegram Bot Token from @BotFather",
+      "value": ""
+    },
+    "ADMIN": {
+      "description": "Your Telegram User ID (admin of the bot)",
+      "value": "8498329864:AAHfDiFgLIUEodxgCHiFXRKvJf1xZ1uETEg"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
