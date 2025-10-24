@@ -47,7 +47,7 @@ You can deploy this bot with a single click on your favorite cloud service:
 ### 🌐 Deploy buttons
 
 <p align="center">
-  <a href="https://heroku.com/deploy?template=https://www.github.com/popeye68/NON-DRM-TXT-VIDEO">
+  <a href="https://heroku.com/deploy?template=https://github.com/Jodmarmik/txttovid">
     <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku">
   </a>
   &nbsp;
