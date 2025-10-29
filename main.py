@@ -33,7 +33,7 @@ from pyrogram.errors.exceptions.bad_request_400 import StickerEmojiInvalid
 from pyrogram.types.messages_and_media import message
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-photologo = 'https://tinypic.host/images/2025/04/23/1000058493.jpg'
+photologo = 'https://radare.arzfun.com/api/tg/photo?id=AgACAgEAAxkBAAEIzsVovEX1pM0daSlJprWHWWKw6CH2LAACkLAxG4gs4EV4AAEChW841tUBAAMCAAN4AAM2BA'
 photoyt = 'https://tinypic.host/images/2025/03/18/YouTube-Logo.wine.png'
 photocp = 'https://tinypic.host/images/2025/03/28/IMG_20250328_133126.jpg'
 
@@ -42,7 +42,7 @@ async def show_random_emojis(message):
     emoji_message = await message.reply_text(' '.join(random.choices(emojis, k=1)))
     return emoji_message
     
-credit ="🇸 🇵 🇮 🇩 🇾" 
+credit ="@NLTRIDE" 
 # Initialize the bot
 bot = Client(
     "bot",
@@ -64,15 +64,15 @@ keyboard = InlineKeyboardMarkup(
 )
 # Image URLs for the random image feature
 image_urls = [
-    "https://tinypic.host/images/2025/04/23/1000058493.jpg",
-    "https://tinypic.host/images/2025/04/23/1000058493.jpg",
+    "https://radare.arzfun.com/api/tg/photo?id=AgACAgEAAxkBAAEIzsVovEX1pM0daSlJprWHWWKw6CH2LAACkLAxG4gs4EV4AAEChW841tUBAAMCAAN4AAM2BA",
+    "https://radare.arzfun.com/api/tg/photo?id=AgACAgEAAxkBAAEIzsVovEX1pM0daSlJprWHWWKw6CH2LAACkLAxG4gs4EV4AAEChW841tUBAAMCAAN4AAM2BA",
     # Add more image URLs as needed
 ]
 cookies_file_path= "youtube_cookies.txt"
 @bot.on_message(filters.command(["help"]))
 async def txt_handler(client: Client, m: Message):
     await bot.send_message(m.chat.id, text= (
-        "🎉Congrats! You are using 𝗦𝗣𝗜𝗗𝗬 𝗘𝗫𝗧𝗥𝗔𝗖𝗧𝗢𝗥:\n┣\n"
+        "🎉Congrats! You are using JOD-UPLOADER:\n┣\n"
         "┣⪼01. Send /start - To Check Bot \n┣\n"
         "┣⪼02. Send /drm - for extract txt file\n┣\n"
         "┣⪼03. Send /cp - for stream txt file\n┣\n"
